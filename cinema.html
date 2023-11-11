@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Form</title>
+    <link rel="stylesheet" href="assets/css/cinema.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+
+    <form action="#" id="cinemaform">
+        <div class="container">
+            <h1>Cinema Form</h1>
+            <br>
+            <label for="email"><b>Name</b></label>
+            <input type="text" name="username" value="name" id="name" placeholder="Enter Name" required>
+            <label for="email"><b>Location</b></label>
+            <input type="text" placeholder="Enter Location" id="location" required>
+
+            <label for="psw"><b>Facility</b></label>
+            <input type="text" placeholder="Enter Facility" id="facility" required>
+
+            <div class="clearfix">
+
+                <button type="submit" class="btn">Submit</button>
+            </div>
+            <ul id="disp"></ul>
+        </div>
+    </form>
+
+
+
+    <script src="assets/js/cinema.js"></script>
+    <script src="assets/js/api.js"></script>
+</body>
+
+</html>
